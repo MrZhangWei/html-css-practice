@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1;user-scalable=no;">
+    <title>test1</title>
+    <style>
+        html{
+            font-size: 10px;
+        }
+        header{
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .header-left{
+            width: auto;
+            height: 100%;
+            overflow: hidden;
+        }
+        .header-right{
+            width: auto;
+            height: 70%;
+        }
+        .header-left div{
+            float: left;
+            width: auto;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .header-left div a{
+            color: white;
+            height: 1rem;
+            width: 1rem;
+            background-color: green;
+        }
+        .header-left div p{
+            color: green;
+            font-size: 2rem;
+            margin-left: 0.5rem;
+        }
+        .header-right p{
+            border: 1px gray solid;
+        }
+        .content{
+            overflow: hidden;
+            padding-left: 4.5rem;
+        }
+        .content .option{
+            height: 1rem;
+            line-height: 1rem;
+            width: 1rem;
+            text-align: center;
+            color: white;
+            background-color:green;
+            float: left;
+
+        }
+        .content .word{
+            float: left;
+            padding-left: 2rem;
+            overflow: hidden;
+        }
+        .content .word img{
+            float: left;
+            height: 10rem;
+            width: auto;
+        }
+        .content .word p{
+            padding-left: 2rem;
+            float: left;
+        }
+        .word1{
+            padding-left: 1.9rem;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-left">
+        <div>
+            <a>/</a>
+            <p>图书畅销榜</p>
+        </div>
+
+    </div>
+    <div class="header-right">
+        <p>MORE</p>
+        <img src="" />
+    </div>
+</header>
+<div class="content">
+    <p class="option">1</p>
+    <div class="word">
+        <img src="img/book.jpg">
+        <p>蛙<br/><br/>作者：莫言</p>
+    </div>
+</div>
+<div class="content">
+    <p class="option">2</p>
+    <div class="word1">
+        <p>白鹿原</p>
+    </div>
+</div>
+<div class="content">
+    <p class="option">3</p>
+    <div class="word1">
+        <p>大秦帝国最终修订版</p>
+    </div>
+</div>
+<div class="content">
+    <p class="option">4</p>
+    <div class="word1">
+        <p>偶发空缺</p>
+    </div>
+</div>
+</body>
+</html>
